@@ -28,8 +28,8 @@ header {
   grid-template-columns: auto 10em auto;
   grid-template-rows: auto 1.5rem;
   grid-template-areas:
-    "left center right"
-    ". centre .";
+        "left center right"
+        ". centre .";
   margin-bottom: 1.5rem;
 }
 
@@ -57,7 +57,7 @@ nav ul {
 }
 
 nav a {
-  padding: .5em, .8em;
+  padding: .5em .8em;
   background-color: #bd027d;
   border: 2px solid #960062;
   border-radius: 6px;
@@ -74,7 +74,7 @@ nav a:hover {
 }
 
 main {
-  padding:  0 1rem;
+  padding: 0 1rem;
 }
 
 main p {
@@ -110,9 +110,9 @@ section ul li {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
-  "top"
-  "middle"
-  "bottom";
+        "top"
+        "middle"
+        "bottom";
 }
 
 section h3 {
@@ -146,7 +146,7 @@ section div {
 section div img {
   width: 1em;
   height: 1em;
-  margin-right: .5;
+  margin-right: .5rem;
 }
 
 section div strong {
